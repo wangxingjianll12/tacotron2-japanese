@@ -1,8 +1,23 @@
+python=3.7.9
+
 matplotlib==2.1.0
 tensorflow==1.15.2
-numpy==1.13.3
+numpy==1.19.3
 inflect==0.2.5
 librosa==0.6.0
-scipy==1.0.0
+#scipy==1.0.0
 Unidecode==1.0.22
 pillow
+
+janome==0.4.2
+denoiser==0.1.0
+librosa==0.8.0
+numba
+pysoundfile==0.9.0.post1
+unidecode==1.3.4
+pyopenjtalk==0.2.0   # need MSVC install cmake
+inflect==5.6.2
+
+protobuf==3.20.* (3.20.1)
+conda install cudatoolkit
+pip install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
